@@ -1,0 +1,26 @@
+{
+    "name": "API",
+    "alias": "api",
+    "description": "Full API CRUD Generator build on repository pattern for VILT Stack",
+    "keywords": [
+        "laravel",
+        "VILT",
+        "api",
+        "generator",
+        "crud",
+        "resource",
+        "repository-pattern",
+        "vilt-admin",
+        "Vilt stack",
+        "admin panel",
+        "admin one",
+        "vuejs",
+        "ineriajs",
+        "tailwind.css"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\API\\Providers\\ApiServiceProvider"
+    ],
+    "files": []
+}

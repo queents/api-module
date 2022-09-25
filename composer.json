@@ -1,0 +1,46 @@
+{
+    "name": "queents/api-module",
+    "description": "Full API CRUD Generator build on repository pattern for VILT Stack",
+    "type": "laravel-module",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "VILT",
+        "api",
+        "generator",
+        "crud",
+        "resource",
+        "repository-pattern",
+        "vilt-admin",
+        "Vilt stack",
+        "admin panel",
+        "admin one",
+        "vuejs",
+        "ineriajs",
+        "tailwind.css"
+    ],
+    "homepage": "https://www.queeentechsolutions.net",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "queents/vilt": "^1.0",
+        "queents/generator-module": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\API\\": ""
+        }
+    }
+}
